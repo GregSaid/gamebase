@@ -1,0 +1,85 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #6b6b6b;
+    color: #000000;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0429a5;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #1c1fdd;
+}
+
+/* Seções */
+.main-content, .content-section {
+    padding: 20px;
+    text-align: left;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+    background-color: #eaf1f6;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #1a32b8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0c08e2;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6b6b6b;
+    color: white;
+    margin-top: 20px;
+} 
+    img { border-radius: 5%;
+}
